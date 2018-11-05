@@ -43,7 +43,7 @@
     </ul>
      <ul class="navbar-nav">
   <li class="nav-item">
-    <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Вход</a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-user-plus"></i> Вход</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#"><i class="fas fa-user"></i> Выход</a>
@@ -64,6 +64,36 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-signin">
+          <img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit" data-dismiss="modal">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 
 	<script
