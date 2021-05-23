@@ -1,2 +1,0 @@
-# doletskyimeow
-my firs host
